@@ -51,3 +51,10 @@ For each city, use the Geoapify API to find the first hotel located within 10,00
 Add the hotel name and the country as additional information in the hover message for each city on the map.
 
 
+The following resources were used to complete the analysis:
+To help with defining the function
+https://realpython.com/defining-your-own-python-function/
+https://www.w3schools.com/python/python_functions.asp
+
+To create today time function:
+https://docs.python.org/3/library/time.html
