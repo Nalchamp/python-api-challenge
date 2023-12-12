@@ -31,3 +31,23 @@ Northern Hemisphere: Wind Speed vs. Latitude
 Southern Hemisphere: Wind Speed vs. Latitude
 
 
+Part 2: VacationPy
+In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+
+The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
+
+Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
+
+To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
+
+Create a map that displays a point for every city in the city_data_df DataFrame. The size of the point should be the humidity in each city.
+
+Narrow down the city_data_df DataFrame to find your ideal weather condition. 
+
+Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+
+For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+
+Add the hotel name and the country as additional information in the hover message for each city on the map.
+
+
